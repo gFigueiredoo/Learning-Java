@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\n\ @author\ Gabriel\ Figueiredo\r\n\ @version\ dos\ guri\ -\ 28/05/2022\r\n
+comment1.params=
+comment1.target=void\ menu()
+comment2.params=args
+comment2.target=void\ Main(java.lang.String[])
+numComments=3
