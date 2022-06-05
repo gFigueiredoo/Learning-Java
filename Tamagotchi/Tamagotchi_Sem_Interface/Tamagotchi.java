@@ -29,13 +29,13 @@ public class Tamagotchi
     //Obter o nome do Tamagotchi.
     public String GetName()
     {
-        return this.name;    
+        return this.name;
     }
     
     //Obter a idade do Tamagotchi.
     public int GetAge()
     {
-        return this.age;    
+        return this.age;
     }
     
     //Atualizar a idade do Tamagotchi.
@@ -70,6 +70,9 @@ public class Tamagotchi
     {
         this.weight += weight;
         
+        String mensagem = weight > 0 ? "\nComendo..." : "\nEmagrecendo...";
+        System.out.println(mensagem);
+        
         if (this.weight > 20)
         {
             System.out.println("Ultrapassei os 20kg, vou explodir!!!!!");
@@ -89,13 +92,13 @@ public class Tamagotchi
         return this.awakeDays;    
     }
     
-    //Increment os dias acordados.
+    //Incrementa os dias acordados.
     public void IncrementAwakeDays()
     {
         this.awakeDays += 1;
     }
     
-     //Increment os dias acordados.
+     //Zera os dias acordados.
     public void SetAwakeDays()
     {
         this.awakeDays = 0;
@@ -106,13 +109,13 @@ public class Tamagotchi
     {
         this.SetAwakeDays();
         this.SetAge(this.age + 1);
-        System.out.println("\n" + this.GetName() + " está dormindo...");  
+        System.out.println("\n" + this.name + " está dormindo...");  
     }
     
     //Mostrar na tela todas informações do Tamagotchi.
     public String toString()
     {
-        return "\nNome: " + this.GetName() + "\nIdade: " + this.GetAge() + "\nPeso: " + this.GetWeight() + "kg" + "\nDias acordado: " + this.GetAwakeDays();
+        return "\nNome: " + this.name + "\nIdade: " + this.age + "\nPeso: " + this.weight + "kg" + "\nDias acordado: " + this.awakeDays;
     }
     
     
