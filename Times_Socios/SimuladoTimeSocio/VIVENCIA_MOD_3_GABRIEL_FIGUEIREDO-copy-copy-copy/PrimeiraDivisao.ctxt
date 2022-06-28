@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=PrimeiraDivisao
+comment0.text=\r\n\ @author\ Gabriel\ Figueiredo\r\n\ @version\ dos\ guri\ -\ 11/06/2022\r\n
+comment1.params=nomeTime\ qntMaximaSocios\ posicaoRankingNacional
+comment1.target=PrimeiraDivisao(java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=int\ getRanking()
+comment3.params=posicaoRankingNacional
+comment3.target=void\ setRanking(int)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

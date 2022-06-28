@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=SegundaDivisao
+comment0.text=\r\n\ @author\ Gabriel\ Figueiredo\r\n\ @version\ dos\ guri\ -\ 11/06/2022\r\n
+comment1.params=nomeTime\ qntMaximaSocios\ anosRebaixado
+comment1.target=SegundaDivisao(java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3

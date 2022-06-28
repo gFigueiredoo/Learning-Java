@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Socio
+comment0.text=\r\n\ @author\ Gabriel\ Figueiredo\r\n\ @version\ dos\ guri\ -\ 11/06/2022\r\n
+comment1.params=nome\ idade
+comment1.target=Socio(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ GetNomeSocio()
+comment3.params=nome
+comment3.target=void\ SetNomeSocio(java.lang.String)
+comment4.params=
+comment4.target=int\ GetIdadeSocio()
+comment5.params=idade
+comment5.target=void\ SetIdadeSocio(int)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7
